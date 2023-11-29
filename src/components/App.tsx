@@ -1,11 +1,11 @@
 // import { Test } from "./Test";
-import {Timer} from "./Timer";
+// import Garage from "./ParentChild";
+// import {Timer} from "./Timer";
+import { TimerWithEvents } from "./TimerWithEvents";
 
 function App() {
   return (
-    // <QueryClientProvider client={queryClient}>
-    <Timer initialTime={60} />
-    // </QueryClientProvider>
+    <TimerWithEvents initialTime={60} />
   );
 }
 
