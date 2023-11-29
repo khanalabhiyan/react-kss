@@ -1,11 +1,15 @@
 // import { Test } from "./Test";
 // import Garage from "./ParentChild";
 // import {Timer} from "./Timer";
-import { TimerWithEvents } from "./TimerWithEvents";
+// import {Ball} from "./ConditionalRendering";
+// import { ReactList } from "./ReactList";
+import { ParentComponent } from "./prop-drilling/ParentComponenent";
+// import {Car} from "./State";
+// import { TimerWithEvents } from "./TimerWithEvents";
 
 function App() {
   return (
-    <TimerWithEvents initialTime={60} />
+    <ParentComponent message="Hello World"/>
   );
 }
 
